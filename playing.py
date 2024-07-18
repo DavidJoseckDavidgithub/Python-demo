@@ -7,38 +7,128 @@ else:
     print(f"Okay! Let's play then :)")
     score = 0
 
-    answer = input('Define CPU?: ')
-    if answer.lower() == 'central processing unit':
-        print('Correct. You are the best!')
+    answer = input('Define the function of the print() function?: ')
+    if answer.lower() == 'outputs text or the value of variables to the console':
+        print('Correct. Awesome!')
         score += 1
     else:
-        print('Incorrect. Do not give up try again i trust you are able to get it right!')
+        print('Incorrect. Try again!')
     
-    answer = input('Define GPU?: ')
-    if answer.lower() == 'graphics processing unit':
+    answer = input('What is console in python?: ')
+    if answer.lower() == 'a command line interpreter that takes input from the user one command at a time and interpretes it':
         print('Correct, You are amazing!')
         score += 1
     else:
         print('Incorrect try again!')
 
-    answer = input("Define RAM?: ")
-    if answer.upper() == 'RANDOM ACCESS MEMORY':
+    answer = input("Define the function of Import statement?: ")
+    if answer.upper() == 'Loads a module or specific components from a module into the current namespace':
         print('Bravo!')
         score += 1
     else:
         print('null and void')
 
-    answer = input("What is the defination of SPU?: ")
-    if answer.lower() == 'spark prevention unit':
+    answer = input("Define the function of Assignment statemnts?: ")
+    if answer.lower() == 'Assign values to variables':
         print('You got it right!')
         score += 1
     else:
-        print('Wrong, do your best and try again. You will be there soon!')
+        print('you got it wrong!')
+
+    answer = input("What is the function of if stament in python programming?: ")
+    if answer.lower() == 'to execute both the true part and false part of a given condition':
+        print('You are great!')
+        score += 1
+    else:
+        print('Not yet!')
+
+    answer = input('Define the function of else statement in programming?: ')
+    if answer.lower == 'to specify what to do if the condition is false':
+        print('Beautiful!')
+        score += 1
+    else:
+        print('Wrong!')
+
+    answer = input('Define the function of expression statement in programming?: ')
+    if answer.lower == 'to evaluate expression':
+        print('You are great!')
+        score += 1
+    else:
+        print('Wrong!')
+    answer = input('Define the function of else statement in programming?: ')
+    if answer.lower == 'to specify what to do if the condition is false':
+        print('You are great!')
+        score += 1
+    else:
+        print('You are wrong!')
+        
+    answer = input('Define the function of conditional statement in programming?: ')
+    if answer.lower == 'to execute code based on condition':
+        print('You made it :)!')
+        score += 1
+    else:
+        print('Try again!')
+
+    answer = input('Define the function of Looping statement in programming?: ')
+    if answer.lower == 'to repeat codes multiple times':
+        print('You are great!')
+        score += 1
+    else:
+        print('Wrong')
+
+    answer = input('Define the function defination statement in programming?: ')
+    if answer.lower == 'to define reusable functions':
+        print('You are great!')
+        score += 1
+    else:
+        print('Try again!')
+    
+    answer = input('Define the function of Pass statement in programming?: ')
+    if answer.lower == 'placeholder for future codes':
+        print('You are great!')
+        score += 1
+    else:
+        print('Try again!')
+
+    answer = input('Define the function of Break and Continue statement in programming?: ')
+    if answer.lower == 'placeholder for future codes':
+        print('You are great!')
+        score += 1
+    else:
+        print('Try again!')
+
+    answer = input('Define the function of Del statement in programming?: ')
+    if answer.lower == 'to delete objects':
+        print('You are great!')
+        score += 1
+    else:
+        print('Try again!')
+
+    answer = input('Define the function of Global and Nonlocal statement in programming?: ')
+    if answer.lower == 'to modify variable scopes':
+        print('You are great!')
+        score += 1
+    else:
+        print('Try again!')
+
+    answer = input('Define the function of Assert statement in programming?: ')
+    if answer.lower == 'Debugging aid':
+        print('You are great!')
+        score += 1
+    else:
+        print('Try again!')
+
+    answer = input('Define the function of With statement in programming?: ')
+    if answer.lower == 'to simplify exception handling':
+        print('You are great!')
+        score += 1
+    else:
+        print('Try again!')
 
     print("You got "+ str(score) + " questions correct!")
-    print("You got "+ str((score / 4) * 100) + "%.")
+    print("You got "+ str((score / 17) * 100) + "%.")
 
-    if score == 4:
+    if score == 17:
         print("Congradulations, You won!")
     else:
         print('Failed try again. You have to attain 100% for you to win!')
