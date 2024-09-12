@@ -119,7 +119,7 @@ else:
 
     answer = input('Define the function of Global and Nonlocal statement in programming?: ')
     if is_close_answer(answer, 'to modify variable scopes'):
-        print('You are great! :)
+        print('You are great! :')
         score += 1
     else:
         print('Try again!')
